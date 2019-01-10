@@ -1,0 +1,11 @@
+.Comment{
+	width: 100%;
+	border: 2px solid #962e40;
+	border-radius: 5px;
+	min-height: 200px;
+	padding: 40px;
+	box-sizing: border-box;
+	text-align: left;
+	color: #a4a4a4;
+	margin:20px 0px ;
+}

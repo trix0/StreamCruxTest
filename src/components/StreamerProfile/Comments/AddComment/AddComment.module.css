@@ -1,0 +1,24 @@
+.AddComment h1{
+	color:#962e40;
+	width: 300px;
+	margin:15px 40px;
+	padding: 0px;
+	text-align: left;
+}
+.Form{
+	width: 100%;
+
+}
+.Textarea{
+	font-size: 20px;
+	box-sizing: border-box;
+	padding: 40px;
+	border:none;
+	height: 250px;
+	width: 100%;
+	background-color: #4c4c4c;
+	color: #a4a4a4;
+}
+.Textarea::placeholder{
+	color: #a4a4a4;	
+}
