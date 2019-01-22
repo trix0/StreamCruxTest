@@ -2,8 +2,7 @@ import React from 'react';
 import classes from "./ShowComments.module.css"
 import Comment from "./Comment/Comment"
 const showComments= (props) =>{
-console.log(props)
-let comments= [...props.Comments];
+var comments = props.Comments.slice();
 comments=comments.reverse().map((comment,index)=><Comment key={index} Comment={comment}/>);
 	return(
 
