@@ -2,8 +2,9 @@ import React from 'react';
 import classes from "./ShowComments.module.css"
 import Comment from "./Comment/Comment"
 const showComments= (props) =>{
-
-let comments=props.Comments.reverse().map((comment,index)=><Comment key={index} Comment={comment}/>);
+console.log(props)
+let comments= [...props.Comments];
+comments=comments.reverse().map((comment,index)=><Comment key={index} Comment={comment}/>);
 	return(
 
 <div className={classes.ShowComments}>
